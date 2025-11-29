@@ -1,0 +1,98 @@
+label {
+    display:block;
+    margin: auto;
+    font-weight:550;
+}
+input {
+    width: 350px;
+    padding: 3px;
+ 
+}
+button{
+    display:block;
+    margin: 3px;
+}
+.circle-image{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+.image-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 80px; 
+    height: 50%;
+}
+.remember-me{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 200px;
+    gap: 4px;
+}
+ .remember-me-check {
+    width: 10px;
+    margin: 0;
+ }
+ .label {
+    margin: 0;
+ }
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 6px auto;
+    position: relative;
+    height: 100vh;
+}
+.welcome-container{
+    position: relative;
+}
+ h1{
+    z-index: 2;
+}
+.ink-pen-container{
+    position:absolute;
+    top: 5px;
+    left: 130px;
+    z-index: -10;
+}
+.ink-pen{
+    color: rgba(117, 223, 98,50%);
+    font-size: 40px;
+}
+.rempass-container {
+    display: flex;
+flex-direction: row;
+}
+.sign-in-btn {
+    width: 100%;
+    text-align: center;
+    margin: 10px 5px ;
+    background-color: #1f1f1f;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+}
+ .need-help-btn{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+ }
+ .calendar {
+    position: absolute;
+    bottom: 450px;
+    z-index: -20px;
+    left: 130px;
+ }
+ .calendar-icon {
+    color: rgba(125, 182, 3,20%);
+    font-size: 60px;
+ }
+
+    
+
+
